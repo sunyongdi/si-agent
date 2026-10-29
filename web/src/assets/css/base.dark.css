@@ -1,0 +1,43 @@
+:root.dark {
+  --main-color: #36d5e2;
+  --main-25: #02282e;
+  --main-50: #053b44;
+  --main-100: #07515c;
+  --main-200: #0a6a78;
+  --main-300: #0d8494;
+  --main-400: #36d5e2;
+  --main-500: #2fb8c4;
+  --main-600: #249aa5;
+  --main-700: #4a9fb8;
+  --main-800: #5fb3c9;
+  --main-900: #7fc9dd;
+
+  --gray-0: #0d0f12;
+  --gray-25: #121518;
+  --gray-50: #181c20;
+  --gray-100: #1f2429;
+  --gray-150: #272d33;
+  --gray-200: #30373d;
+  --gray-300: #454e56;
+  --gray-400: #6b7681;
+  --gray-500: #939da6;
+  --gray-600: #b4bdc5;
+  --gray-700: #d0d7dd;
+  --gray-800: #e2e8ee;
+  --gray-900: #f2f6fa;
+
+  --success-color: #6ade4f;
+  --error-color: #ff6b6d;
+  --warning-color: #ffc53d;
+  --info-color: #40a9ff;
+
+  --light-40: rgba(255, 255, 255, 0.06);
+  --light-60: rgba(255, 255, 255, 0.08);
+  --light-80: rgba(255, 255, 255, 0.1);
+  --dark-10: rgba(0, 0, 0, 0.3);
+  --dark-20: rgba(0, 0, 0, 0.4);
+
+  --shadow-1: 0 1px 2px rgba(0, 0, 0, 0.2);
+  --shadow-2: 0 2px 8px rgba(0, 0, 0, 0.35);
+  --shadow-3: 0 4px 16px rgba(0, 0, 0, 0.45);
+}

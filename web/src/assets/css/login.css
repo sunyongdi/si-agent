@@ -1,0 +1,90 @@
+.login-view {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, var(--gray-50) 0%, var(--main-25) 100%);
+  overflow: hidden;
+}
+
+.login-theme-toggle {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  border: 1px solid var(--gray-200);
+  background: var(--gray-0);
+  color: var(--gray-500);
+  cursor: pointer;
+  padding: 8px;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.login-theme-toggle:hover {
+  color: var(--main-color);
+  border-color: var(--main-color);
+}
+
+.login-card {
+  width: 400px;
+  max-width: calc(100vw - 32px);
+  background: var(--gray-0);
+  border: 1px solid var(--gray-150);
+  border-radius: var(--radius-lg);
+  padding: 36px 32px;
+  box-shadow: var(--shadow-2);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.login-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.login-brand-bar {
+  width: 4px;
+  height: 20px;
+  background: var(--main-color);
+  border-radius: 2px;
+}
+
+.login-brand-name {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--gray-800);
+}
+
+.login-title {
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--gray-800);
+  margin: 0;
+}
+
+.login-desc {
+  font-size: 13px;
+  line-height: 1.7;
+  color: var(--gray-500);
+  margin: 0;
+}
+
+.login-desc code {
+  font-family: 'SF Mono', Menlo, Consolas, monospace;
+  font-size: 12px;
+  background: var(--gray-100);
+  padding: 1px 5px;
+  border-radius: 4px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 4px;
+}
